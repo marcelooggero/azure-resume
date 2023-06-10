@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   getVisitCount();
 })
 
-const functionApi = 'http://localhost:7071/api/GetResumeMao2';
+const functionApi = 'https://maoresume.azurewebsites.net/api/HttpTrigger1?code=FyUOUw-uxFTwum6pjUzRiuoJJN6By5mOA4Jh9B3FP1QWAzFujiG7LQ==';
 
 const getVisitCount = () => {
   let count =30;
